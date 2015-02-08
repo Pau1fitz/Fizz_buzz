@@ -1,4 +1,4 @@
-class Fizzbuzz
+class FizzBuzz
 
   def divided_by_three?(number)
     number % 3 == 0
@@ -14,8 +14,8 @@ class Fizzbuzz
 
   def play(number)
     return "fizzbuzz" if divided_by_fifteen?(number)
-    return "buzz" if divided_by_five?(number)
     return "fizz" if divided_by_three?(number)
+    return "buzz" if divided_by_five?(number)
     number
   end
 
